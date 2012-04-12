@@ -6,5 +6,7 @@ DATABASES = {
 }
 
 INSTALLED_APPS = (
-    'myproject',
+    'raiseexception',
 )
+
+ROOT_URLCONF = 'raiseexception.urls'

@@ -7,12 +7,12 @@ import os
 import sys
 
 
-name = 'django-reusable-app'
-package = 'myproject'
-description = ''
-url = 'http://github.com/.../.../'
-author = ''
-author_email = ''
+name = 'django-raise-exception-view'
+package = 'raiseexception'
+description = 'Django view that raises an exception so you can test your logging setup'
+url = 'http://github.com/brightinteractive/django-raise-exception-view/'
+author = 'Francis Devereux'
+author_email = 'francis@bright-interactive.co.uk'
 license = 'BSD'
 install_requires = []
 

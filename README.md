@@ -1,44 +1,15 @@
 Django Reusable Apps
 ====================
 
-**Simple template for reusable apps with Django.**
+**Django view that raises an exception so you can test your logging setup.**
 
-**Author:** Tom Christie, [Follow me on Twitter][1].
-
-Overview
-========
-
-A simple template for creating reusable apps with Django.
-
-Includes:
-
-1. A `setup.py` that makes your life easy and doesn't suck.
-2. A simple layout that lets you run the app's tests without installing it into an existing project.
-3. A `tox` config to allow you to run your tests against multiple environments.
-
-Creating a new app
-==================
-
-You'll want to clone this project, then create a fresh git repo for it:
-
-    git clone git://github.com/dabapps/django-reusable-app.git my-project-name
-    cd my-project-name
-    mv myproject packagename
-    rm -rf .git
-    git init
-
-Edit `setup.py` and update the settings at the top of the file.
-Edit the `README`.
+**Author:** Francis Devereux, Bright Interactive[1].
 
 Pushing releases to PyPI
 ========================
 
-To register your package on PyPI:
-
-    ./setup.py register
-
-To publish a new version of your app to PyPI, set the `__version__` string in
-your package's `__init__.py`, then run:
+To publish a new version of to PyPI, set the `__version__` string in
+your package's `raiseexception/__init__.py`, then run:
 
     ./setup.py publish
 
@@ -58,13 +29,6 @@ then simply run `tox`:
 Changelog
 =========
 
-1.0.1
------
-
-* Include author_email in setup.py
-* Move testsettings into top level dir
-* Update tox to test against Django 1.3, 1.4 (From 1.2, 1.3)
-
 1.0.0
 -----
 
@@ -73,7 +37,8 @@ Changelog
 License
 =======
 
-Copyright © DabApps.
+Based on django-reusable-app Copyright (c) DabApps.
+Copyright (c) Bright Interactive.
 
 All rights reserved.
 
@@ -96,4 +61,4 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-[1]: http://twitter.com/_tomchristie
+[1]: http://www.bright-interactive.com
