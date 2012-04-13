@@ -1,5 +1,5 @@
-Django Reusable Apps
-====================
+Django Raise Exception View
+===========================
 
 **Django view that raises an exception so you can test your logging setup.**
 
@@ -37,7 +37,7 @@ Changelog
 License
 =======
 
-Based on django-reusable-app Copyright (c) DabApps.
+Started using django-reusable-app template Copyright (c) DabApps.
 Copyright (c) Bright Interactive.
 
 All rights reserved.
