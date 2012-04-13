@@ -29,6 +29,11 @@ then simply run `tox`:
 Changelog
 =========
 
+1.0.1
+-----
+
+* Packaging fix
+
 1.0.0
 -----
 
