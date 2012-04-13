@@ -5,13 +5,20 @@ Django Raise Exception View
 
 **Author:** Francis Devereux, Bright Interactive[1].
 
-Pushing releases to PyPI
-========================
+Publishing releases to PyPI
+===========================
 
 To publish a new version of to PyPI, set the `__version__` string in
 your package's `raiseexception/__init__.py`, then run:
 
+    # Run the tests against multiple environments
+    tox
+	# Publish to PyPI
     ./setup.py publish
+	# Tag (change 1.0.1 to the version you are publishing!)
+	git tag -a v1.0.1 -m 'Version 1.0.1'
+	git push --tags
+	
 
 Running the tests
 =================
