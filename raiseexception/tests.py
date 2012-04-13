@@ -4,7 +4,8 @@
 
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from views import DeliberateException, raise_exception
+from views import raise_exception
+from raiseexception import DeliberateException
 
 
 class RaiseExceptionViewTests(TestCase):
@@ -13,6 +14,7 @@ class RaiseExceptionViewTests(TestCase):
             DeliberateException,
             raise_exception,
             request=None)
+
 
 class RaiseExceptionUrlTests(TestCase):
     def test_url_raises_exception(self):
