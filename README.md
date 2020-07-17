@@ -45,6 +45,10 @@ then simply run `tox`:
 
 Changelog
 =========
+1.0.2
+-----
+* Support Python 3
+* Support Django <= 1.11
 
 1.0.1
 -----
