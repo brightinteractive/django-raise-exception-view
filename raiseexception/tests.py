@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 # (c) 2012 Bright Interactive Limited. All rights reserved.
 # http://www.bright-interactive.com | info@bright-interactive.com
+from __future__ import absolute_import
 
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from views import raise_exception
+from .views import raise_exception
 from raiseexception import DeliberateException
 
 
